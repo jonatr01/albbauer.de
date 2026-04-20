@@ -1,0 +1,110 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --bg: #f4f1eb;
+  --panel: #fffaf3;
+  --text: #1a1c1d;
+  --muted: #4e5961;
+  --accent: #8d3e00;
+  --border: #d5c4ad;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  color: var(--text);
+  background: radial-gradient(circle at 15% 20%, #fff8e8 0%, #0000 45%), radial-gradient(circle at 85% 10%, #f8d3b4 0%, #0000 35%), linear-gradient(140deg, #eee8dd 0%, #f5f0e7 50%, #efe6d9 100%);
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Space Grotesk, Avenir Next, Segoe UI, sans-serif;
+}
+
+.page-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 5rem;
+}
+
+.hero h1 {
+  letter-spacing: -.02em;
+  margin: 0 0 .9rem;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.1;
+}
+
+.eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 0 0 .7rem;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.lead {
+  max-width: 62ch;
+  color: var(--muted);
+  margin: 0;
+}
+
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  display: grid;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 10px 28px #382d1f14;
+}
+
+.card h2 {
+  margin: 0 0 .45rem;
+  font-size: 1.05rem;
+}
+
+.card p {
+  color: var(--muted);
+  margin: 0;
+  font-size: .95rem;
+}
+
+.contract-panel {
+  border: 1px solid var(--border);
+  background: #fffaf3eb;
+  border-radius: 14px;
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+}
+
+.contract-panel h2 {
+  margin: 0 0 .6rem;
+  font-size: 1.05rem;
+}
+
+.contract-panel p {
+  color: var(--muted);
+  margin: 0 0 .4rem;
+}
+
+.contract-panel ul {
+  margin: .2rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.contract-panel li {
+  margin: .2rem 0;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+}
+
+/*# sourceMappingURL=app_globals_0jn8.0u.css.map*/
